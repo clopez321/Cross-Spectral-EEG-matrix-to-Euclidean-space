@@ -1,0 +1,1 @@
+Project: Cross Spectral EEG matrix to Euclidean space
