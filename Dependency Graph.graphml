@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="key0" for="edge" attr.name="component" attr.type="string" />
+  <key id="key1" for="graph" attr.name="graph.root" attr.type="string" />
+  <key id="key2" for="node" attr.name="node.path" attr.type="string" />
+  <key id="key3" for="node" attr.name="node.type" attr.type="string" />
+  <key id="key4" for="edge" attr.name="reference" attr.type="string" />
+  <key id="key5" for="edge" attr.name="relationship" attr.type="string" />
+  <key id="key6" for="edge" attr.name="type" attr.type="string" />
+  <graph id="G" edgedefault="directed" parse.nodeids="canonical" parse.edgeids="canonical" parse.order="nodesfirst">
+   <data key="key1">D:/OneDrive - CCLAB/Thesis/Software/Projects/Cross Spectral EEG matrix to Euclidean space</data>
+    <node id="n0">
+      <data key="key2">$/RegCrossSubjs.m</data>
+      <data key="key3">File</data>
+    </node>
+    <node id="n1">
+      <data key="key2">$/RiemannExpMap.m</data>
+      <data key="key3">File</data>
+    </node>
+    <node id="n2">
+      <data key="key2">$/Tangent_space.m</data>
+      <data key="key3">File</data>
+    </node>
+    <node id="n3">
+      <data key="key2">$/UnTangent_space.m</data>
+      <data key="key3">File</data>
+    </node>
+    <node id="n4">
+      <data key="key2">$/regularizeHS.m</data>
+      <data key="key3">File</data>
+    </node>
+    <node id="n5">
+      <data key="key2">$/riemann_mean.m</data>
+      <data key="key3">File</data>
+    </node>
+    <node id="n6">
+      <data key="key2">ML</data>
+      <data key="key3">Product</data>
+    </node>
+    <edge id="e0" source="n0" target="n6">
+      <data key="key0">17</data>
+      <data key="key4"></data>
+      <data key="key5">Toolbox</data>
+      <data key="key6">MATLABFile,FunctionCall</data>
+    </edge>
+    <edge id="e1" source="n0" target="n6">
+      <data key="key0">1</data>
+      <data key="key4"></data>
+      <data key="key5">Toolbox</data>
+      <data key="key6">MATLABFile,FunctionCall</data>
+    </edge>
+    <edge id="e2" source="n0" target="n6">
+      <data key="key0">21</data>
+      <data key="key4"></data>
+      <data key="key5">Toolbox</data>
+      <data key="key6">MATLABFile,FunctionCall</data>
+    </edge>
+    <edge id="e3" source="n0" target="n4">
+      <data key="key0">28</data>
+      <data key="key4"></data>
+      <data key="key5">Source</data>
+      <data key="key6">MATLABFile,FunctionCall</data>
+    </edge>
+    <edge id="e4" source="n0" target="n6">
+      <data key="key0">32</data>
+      <data key="key4"></data>
+      <data key="key5">Toolbox</data>
+      <data key="key6">MATLABFile,FunctionCall</data>
+    </edge>
+    <edge id="e5" source="n0" target="n6">
+      <data key="key0">44</data>
+      <data key="key4"></data>
+      <data key="key5">Toolbox</data>
+      <data key="key6">MATLABFile,FunctionCall</data>
+    </edge>
+    <edge id="e6" source="n0" target="n2">
+      <data key="key0">51</data>
+      <data key="key4"></data>
+      <data key="key5">Source</data>
+      <data key="key6">MATLABFile,FunctionCall</data>
+    </edge>
+    <edge id="e7" source="n0" target="n6">
+      <data key="key0">9</data>
+      <data key="key4"></data>
+      <data key="key5">Toolbox</data>
+      <data key="key6">MATLABFile,FunctionCall</data>
+    </edge>
+    <edge id="e8" source="n0" target="n6">
+      <data key="key0"></data>
+      <data key="key4"></data>
+      <data key="key5">Toolbox</data>
+      <data key="key6">Toolbox</data>
+    </edge>
+    <edge id="e9" source="n1" target="n6">
+      <data key="key0"></data>
+      <data key="key4"></data>
+      <data key="key5">Toolbox</data>
+      <data key="key6">Toolbox</data>
+    </edge>
+    <edge id="e10" source="n2" target="n6">
+      <data key="key0">15</data>
+      <data key="key4"></data>
+      <data key="key5">Toolbox</data>
+      <data key="key6">MATLABFile,FunctionCall</data>
+    </edge>
+    <edge id="e11" source="n2" target="n5">
+      <data key="key0">8</data>
+      <data key="key4"></data>
+      <data key="key5">Source</data>
+      <data key="key6">MATLABFile,FunctionCall</data>
+    </edge>
+    <edge id="e12" source="n2" target="n6">
+      <data key="key0"></data>
+      <data key="key4"></data>
+      <data key="key5">Toolbox</data>
+      <data key="key6">Toolbox</data>
+    </edge>
+    <edge id="e13" source="n3" target="n1">
+      <data key="key0">20</data>
+      <data key="key4"></data>
+      <data key="key5">Source</data>
+      <data key="key6">MATLABFile,FunctionCall</data>
+    </edge>
+    <edge id="e14" source="n3" target="n5">
+      <data key="key0">7</data>
+      <data key="key4"></data>
+      <data key="key5">Source</data>
+      <data key="key6">MATLABFile,FunctionCall</data>
+    </edge>
+    <edge id="e15" source="n3" target="n6">
+      <data key="key0"></data>
+      <data key="key4"></data>
+      <data key="key5">Toolbox</data>
+      <data key="key6">Toolbox</data>
+    </edge>
+    <edge id="e16" source="n4" target="n6">
+      <data key="key0"></data>
+      <data key="key4"></data>
+      <data key="key5">Toolbox</data>
+      <data key="key6">Toolbox</data>
+    </edge>
+    <edge id="e17" source="n5" target="n6">
+      <data key="key0">16</data>
+      <data key="key4"></data>
+      <data key="key5">Toolbox</data>
+      <data key="key6">MATLABFile,FunctionCall</data>
+    </edge>
+    <edge id="e18" source="n5" target="n2">
+      <data key="key0">28</data>
+      <data key="key4"></data>
+      <data key="key5">Source</data>
+      <data key="key6">MATLABFile,FunctionCall</data>
+    </edge>
+    <edge id="e19" source="n5" target="n6">
+      <data key="key0">37</data>
+      <data key="key4"></data>
+      <data key="key5">Toolbox</data>
+      <data key="key6">MATLABFile,FunctionCall</data>
+    </edge>
+    <edge id="e20" source="n5" target="n3">
+      <data key="key0">39</data>
+      <data key="key4"></data>
+      <data key="key5">Source</data>
+      <data key="key6">MATLABFile,FunctionCall</data>
+    </edge>
+    <edge id="e21" source="n5" target="n6">
+      <data key="key0"></data>
+      <data key="key4"></data>
+      <data key="key5">Toolbox</data>
+      <data key="key6">Toolbox</data>
+    </edge>
+  </graph>
+</graphml>
